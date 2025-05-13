@@ -63,3 +63,12 @@ curl -X POST "http://localhost:8000/v1/chat/completions" \
 ```bash
 ollama run deepseek-r1
 ```
+### Call using curl
+```bash
+curl http://localhost:11434/api/generate \    
+  -d '{
+    "model": "deepseek-r1",
+    "prompt": "Explique de forma simples o que é uma rede neural.",
+    "stream": false
+  }'
+```
