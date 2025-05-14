@@ -27,6 +27,6 @@ You can use the following AI models:
   - Click on **Use this model** > **vLLM**
   - Follow the instructions.
 
-See more [other ways to run a model localy](./command-lines-instructions.md)  
-
+See more [other ways to run a model localy](./command-lines-instructions.md)
+More [references](https://dev.to/hebertrfreitas/montando-um-ambiente-local-para-testar-llms-opensource-1ia3)
 Translate to [Portugese](./README-PT.md)
