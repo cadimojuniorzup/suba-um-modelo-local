@@ -8,14 +8,14 @@ pip install vllm
 
 ### Load and run the model:
 ```bash
-vllm serve "deepseek-ai/DeepSeek-V3-0324"
+vllm serve "deepseek-ai/DeepSeek-R1"
 ```
 ### Call the server using curl:
 ```bash
 curl -X POST "http://localhost:8000/v1/chat/completions" \
 	-H "Content-Type: application/json" \
 	--data '{
-		"model": "deepseek-ai/DeepSeek-V3-0324",
+		"model": "deepseek-ai/DeepSeek-R1",
 		"messages": [
 			{
 				"role": "user",
@@ -65,7 +65,7 @@ ollama run deepseek-r1
 ```
 ### Call using curl
 ```bash
-curl http://localhost:11434/api/generate \    
+curl http://localhost:11434/api/generate \
   -d '{
     "model": "deepseek-r1",
     "prompt": "Explique de forma simples o que é uma rede neural.",
